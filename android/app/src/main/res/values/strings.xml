@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Memories</string>
+    <string name="app_name">Kỷ niệm</string>
     <string name="min_server_version">6.1.0</string>
 
     <string name="preferences_key">memories</string>
