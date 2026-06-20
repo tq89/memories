@@ -1,7 +1,7 @@
-package gallery.memories.service
+package com.trongqui.memories.service
 
 import android.content.Context
-import gallery.memories.R
+import com.trongqui.memories.R
 
 class ConfigService(private val mCtx: Context) {
     companion object {

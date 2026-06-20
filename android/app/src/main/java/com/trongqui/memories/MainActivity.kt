@@ -1,4 +1,4 @@
-package gallery.memories
+package com.trongqui.memories
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -44,7 +44,7 @@ import androidx.media3.datasource.DefaultHttpDataSource
 import androidx.media3.exoplayer.ExoPlayer
 import androidx.media3.exoplayer.hls.HlsMediaSource
 import androidx.media3.exoplayer.source.ProgressiveMediaSource
-import gallery.memories.databinding.ActivityMainBinding
+import com.trongqui.memories.databinding.ActivityMainBinding
 import java.util.concurrent.ExecutorService
 import java.util.concurrent.Executors
 

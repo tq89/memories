@@ -1,12 +1,12 @@
-package gallery.memories.dao
+package com.trongqui.memories.dao
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room.databaseBuilder
 import androidx.room.RoomDatabase
 import androidx.sqlite.db.SupportSQLiteDatabase
-import gallery.memories.R
-import gallery.memories.mapper.Photo
+import com.trongqui.memories.R
+import com.trongqui.memories.mapper.Photo
 
 
 @Database(entities = [Photo::class], version = 34)

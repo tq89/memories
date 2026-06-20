@@ -1,4 +1,4 @@
-package gallery.memories
+package com.trongqui.memories
 
 import android.util.Log
 import android.view.SoundEffectConstants
@@ -7,12 +7,12 @@ import android.webkit.WebResourceRequest
 import android.webkit.WebResourceResponse
 import android.widget.Toast
 import androidx.media3.common.util.UnstableApi
-import gallery.memories.service.AccountService
-import gallery.memories.service.DownloadService
-import gallery.memories.service.HttpService
-import gallery.memories.service.ImageService
-import gallery.memories.service.PermissionsService
-import gallery.memories.service.TimelineQuery
+import com.trongqui.memories.service.AccountService
+import com.trongqui.memories.service.DownloadService
+import com.trongqui.memories.service.HttpService
+import com.trongqui.memories.service.ImageService
+import com.trongqui.memories.service.PermissionsService
+import com.trongqui.memories.service.TimelineQuery
 import org.json.JSONArray
 import java.io.ByteArrayInputStream
 import java.net.URLDecoder

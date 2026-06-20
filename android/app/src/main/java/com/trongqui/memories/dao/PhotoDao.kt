@@ -1,11 +1,11 @@
-package gallery.memories.dao
+package com.trongqui.memories.dao
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
-import gallery.memories.mapper.Bucket
-import gallery.memories.mapper.Day
-import gallery.memories.mapper.Photo
+import com.trongqui.memories.mapper.Bucket
+import com.trongqui.memories.mapper.Day
+import com.trongqui.memories.mapper.Photo
 
 @Dao
 interface PhotoDao {

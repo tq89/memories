@@ -402,7 +402,7 @@ final class Util
     public static function callerIsNative(): bool
     {
         // Should not use IRequest here since this method is called during registration
-        return 'gallery.memories' === ($_SERVER['HTTP_X_REQUESTED_WITH'] ?? '')
+        return 'com.trongqui.memories' === ($_SERVER['HTTP_X_REQUESTED_WITH'] ?? '')
         || str_contains($_SERVER['HTTP_USER_AGENT'] ?? '', 'MemoriesNative');
     }
 

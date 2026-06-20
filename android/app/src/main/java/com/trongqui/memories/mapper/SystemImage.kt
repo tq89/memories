@@ -1,4 +1,4 @@
-package gallery.memories.mapper
+package com.trongqui.memories.mapper
 
 import android.content.ContentUris
 import android.content.Context

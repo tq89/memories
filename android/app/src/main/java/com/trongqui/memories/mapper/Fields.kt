@@ -1,4 +1,4 @@
-package gallery.memories.mapper
+package com.trongqui.memories.mapper
 
 import androidx.exifinterface.media.ExifInterface
 

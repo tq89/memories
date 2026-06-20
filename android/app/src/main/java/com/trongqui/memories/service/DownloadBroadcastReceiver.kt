@@ -1,10 +1,10 @@
-package gallery.memories.service
+package com.trongqui.memories.service
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import androidx.media3.common.util.UnstableApi
-import gallery.memories.NativeX
+import com.trongqui.memories.NativeX
 
 @UnstableApi class DownloadBroadcastReceiver : BroadcastReceiver() {
     /**

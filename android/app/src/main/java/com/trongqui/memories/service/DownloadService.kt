@@ -1,4 +1,4 @@
-package gallery.memories.service
+package com.trongqui.memories.service
 
 import android.app.DownloadManager
 import android.content.Context
@@ -9,7 +9,7 @@ import android.webkit.CookieManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.collection.ArrayMap
 import androidx.media3.common.util.UnstableApi
-import gallery.memories.mapper.Fields
+import com.trongqui.memories.mapper.Fields
 import org.json.JSONArray
 import java.util.concurrent.CountDownLatch
 

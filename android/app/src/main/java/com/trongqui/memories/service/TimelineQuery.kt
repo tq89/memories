@@ -1,4 +1,4 @@
-package gallery.memories.service
+package com.trongqui.memories.service
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -13,12 +13,12 @@ import androidx.activity.result.IntentSenderRequest
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.exifinterface.media.ExifInterface
 import androidx.media3.common.util.UnstableApi
-import gallery.memories.MainActivity
-import gallery.memories.R
-import gallery.memories.dao.AppDatabase
-import gallery.memories.mapper.Fields
-import gallery.memories.mapper.Response
-import gallery.memories.mapper.SystemImage
+import com.trongqui.memories.MainActivity
+import com.trongqui.memories.R
+import com.trongqui.memories.dao.AppDatabase
+import com.trongqui.memories.mapper.Fields
+import com.trongqui.memories.mapper.Response
+import com.trongqui.memories.mapper.SystemImage
 import org.json.JSONArray
 import org.json.JSONException
 import org.json.JSONObject

@@ -5,7 +5,7 @@ import android.security.keystore.KeyProperties.KEY_ALGORITHM_AES
 import android.security.keystore.KeyProperties.PURPOSE_DECRYPT
 import android.security.keystore.KeyProperties.PURPOSE_ENCRYPT
 import android.util.Base64
-import gallery.memories.service.Credential
+import com.trongqui.memories.service.Credential
 import java.security.KeyStore
 import javax.crypto.Cipher
 import javax.crypto.KeyGenerator

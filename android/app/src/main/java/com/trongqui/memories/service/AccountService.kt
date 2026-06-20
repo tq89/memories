@@ -1,4 +1,4 @@
-package gallery.memories.service
+package com.trongqui.memories.service
 
 import SecureStorage
 import android.content.Intent
@@ -6,8 +6,8 @@ import android.net.Uri
 import android.util.Log
 import android.widget.Toast
 import androidx.media3.common.util.UnstableApi
-import gallery.memories.MainActivity
-import gallery.memories.R
+import com.trongqui.memories.MainActivity
+import com.trongqui.memories.R
 import io.github.g00fy2.versioncompare.Version
 
 @UnstableApi

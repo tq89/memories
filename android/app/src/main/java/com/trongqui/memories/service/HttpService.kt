@@ -1,4 +1,4 @@
-package gallery.memories.service
+package com.trongqui.memories.service
 
 import android.annotation.SuppressLint
 import android.util.Base64

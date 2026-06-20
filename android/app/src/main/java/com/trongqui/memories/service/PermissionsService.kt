@@ -1,11 +1,11 @@
-package gallery.memories.service
+package com.trongqui.memories.service
 
 import android.os.Build
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.media3.common.util.UnstableApi
-import gallery.memories.MainActivity
-import gallery.memories.R
+import com.trongqui.memories.MainActivity
+import com.trongqui.memories.R
 import java.util.concurrent.CountDownLatch
 
 @UnstableApi class PermissionsService(private val activity: MainActivity) {

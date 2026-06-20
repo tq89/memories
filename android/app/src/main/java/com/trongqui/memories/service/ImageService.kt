@@ -1,4 +1,4 @@
-package gallery.memories.service
+package com.trongqui.memories.service
 
 import android.content.Context
 import android.graphics.Bitmap
@@ -6,7 +6,7 @@ import android.graphics.ImageDecoder
 import android.os.Build
 import android.provider.MediaStore
 import androidx.media3.common.util.UnstableApi
-import gallery.memories.mapper.SystemImage
+import com.trongqui.memories.mapper.SystemImage
 import java.io.ByteArrayOutputStream
 
 @UnstableApi
